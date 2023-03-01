@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(228, 218, 218);
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header h1 {
+    background-image: url(/imagenes/fondo1280x720.jpg);
+    color: white;
+    height: 150px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 45px;
+}
+
+.nav-enlace {
+    display:inline-block;
+    background: black;
+    color: aliceblue;
+    padding: 10px 30px;
+    text-decoration: none;
+}
+.nav-enlace:hover {
+    background: #d2691e;
+}
+nav {
+    background: seagreen;
+    padding: 10px 20px;
+      
+}
+section h2 {
+    padding: 30px 20px;
+}
+
+section h3 {
+    padding: 10px 20px;
+    background-color: #d2691e
+    ;
+}
+section label {
+    padding: 20px;
+    color: black ;
+    font-weight: bold
+}
+
+Section input {
+    margin: 20px;
+    padding: 10px ;
+}
+
+textarea {
+    margin: 20px;
+    padding: 30px 50px;
+}
+
+section input[type="submit"] {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    padding: 15px 20px;
+}
+
+#btnExperiencia {
+    margin: 20px;
+	padding: 10px;
+	background: orange;
+	width: 150px;
+	cursor: pointer;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	box-shadow: 0px 0px 1px #000;
+	display: inline-block;
+
+}
+
+#btnExperiencia:hover{
+
+	opacity: .8;
+
+}
+
+#btnHabilidades {
+    margin: 20px;
+	padding: 10px;
+	background: orange;
+	width: 150px;
+	cursor: pointer;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	box-shadow: 0px 0px 1px #000;
+	display: inline-block;
+
+}
+
+#btnHabilidades:hover{
+
+	opacity: .8;
+
+}
+
+#cajaHabilidades{
+
+	width: 70%;
+    display: inline-block;
+	margin: 20px;
+	height: 0px;
+	background: #000;
+	box-shadow: 10px 10px 3px #dd9898;
+	transition: height .4s;
+
+}
+
+#cajaExperiencia{
+
+	width: 70%;
+    display: inline-block;
+	margin: 20px;
+	height: 0px;
+	
+	box-shadow: 10px 10px 3px #D8D8D8;
+	transition: height .4s;
+
+}
+
+
+input:valid,
+textarea:valid {
+    border-color: rgb(95, 196, 95);
+}
+
+input:invalid,
+textarea:invalid {
+    border-color: red;
+}
