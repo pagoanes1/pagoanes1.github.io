@@ -1,0 +1,107 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: white;
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    color: aliceblue;
+    background-image: url(/imagenes/fondo1280x720.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 5px;
+}
+
+h1 {
+    letter-spacing: 10px;
+    color: white;
+    padding: 20px;
+    margin-top: 10px;
+}
+
+img {
+    margin: 0px;
+    width: 190px;
+}
+
+.nombre {
+    margin-top: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+h5 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.nav-enlace {
+    display:inline-block;
+    background: black;
+    color: aliceblue;
+    padding: 10px 30px;
+    text-decoration: none;
+}
+.nav-enlace:hover {
+    background: #d2691e;
+}
+nav {
+    background: rgb(36, 32, 32);
+    padding: 10px 20px;
+}
+.titulo {
+    background-color: #d2691e;
+    padding: 15px;
+}
+
+#datos_personales {
+    background-color: rgb(158, 207, 191);
+    padding: 50px;
+    display: none;
+}
+
+#experiencia {
+    background-color: rgb(179, 145, 140);
+    padding: 50px;
+    display: none;
+}
+
+#habilidades {
+    background-color: rgb(154, 149, 163);
+    padding: 50px;
+    display: none;
+}
+
+#btn_info {
+    color: rgb(0, 0, 0);
+    margin: 20px;
+}
+
+#btn_expe {
+    color: rgb(0, 0, 0);
+    margin: 20px;
+}
+
+#btn_habil {
+    color: rgb(0, 0, 0);
+    margin: 20px;
+}
+
+footer {
+    background-color: rgb(22, 20, 20);
+    color: aliceblue;
+    text-align: center;
+    padding: 50px;
+}
+
+footer img {
+    margin: 0px;
+    width: 30px;;
+}
